@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+
+/* Slider */
+
+.slider {
+    position: relative;
+    margin-top: 15px;
+}
+
+.slider__background {
+    background-image: url("img/background-slider.jpg");
+    opacity: 0.3;
+    height: 500px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.slider__container {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider__photo {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.slider__photo img{
+    width: 100%;
+    height: 100%;
+}
