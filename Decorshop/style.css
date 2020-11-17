@@ -89,7 +89,7 @@
 .top-menu-right {
 	float: left;
 	height: 47px;
-	width: 70%;
+	width: 80%;
 	margin: 0px auto;
 }
 
@@ -111,9 +111,9 @@
 }
 
 .top-menu-right a:hover {
-	color: #550000;
+	/* color: #550000; */
 	background-color: #5f5a5a;
-	border: 1px solid #550000;
+	border-bottom: 1px solid #550000;
 	border-radius: 5px;
 }
 .drop-menu {
@@ -133,13 +133,14 @@
 	border-radius: 10px;
 }
 
-.drop-menu-content a {
+.drop-menu-content a{
     font-size: 22px;
     border-bottom: 1px dashed slategray;
-    display: block;
+	display: block;
+	padding: 10px;
 }
 .drop-menu:hover .drop-menu-content {
-    display: block;
+	display: block;
 }
 
 .run {
