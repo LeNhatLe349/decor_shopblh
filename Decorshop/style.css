@@ -96,6 +96,7 @@
 .top-menu-right ul {
 	list-style: none;
 	display: flex;
+	margin-top: 30px;
 }
 
 .top-menu-right a {
@@ -142,7 +143,13 @@
 }
 
 .run {
-	margin-top: 0;
+	background-color: #CC99CC;
+}
+
+.run h2 {
+	line-height: 53px;
+	font-size: 20px;
+	align-items: center;
 }
 
 /* slide */
