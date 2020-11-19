@@ -103,6 +103,7 @@
 	color: white;
 	font-size: 25px;
 	text-decoration: none;
+	padding: 10px 3px;
 }
 
 .top-menu-right ul li {
@@ -111,7 +112,6 @@
 }
 
 .top-menu-right a:hover {
-	/* color: #550000; */
 	background-color: #5f5a5a;
 	border-bottom: 1px solid #550000;
 	border-radius: 5px;
@@ -246,7 +246,7 @@
 	margin: 20px 0;
 }
 
-.footer__bottom {
+/* .footer__bottom {
 	display: flex;
 	width: 100%;
 	height: 200px;
@@ -308,7 +308,7 @@
 	top: 20%;
 	left: 10%;
 	text-align: black;
-}
+} */
 
 .message {
 	position: sticky;
