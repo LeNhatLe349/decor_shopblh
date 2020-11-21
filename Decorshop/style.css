@@ -64,6 +64,14 @@
 	text-decoration-color: white;
 }
 
+.top-right-login:hover {
+	background-color: #ee4d2d;
+}
+
+.top-right-signin:hover {
+	background-color: #ee4d2d;
+}
+
 .search {
 	border-radius: 10px;
 	width: 200px;
@@ -112,9 +120,7 @@
 }
 
 .top-menu-right a:hover {
-	background-color: #5f5a5a;
-	border-bottom: 1px solid #550000;
-	border-radius: 5px;
+	background-color: rgb(181, 181, 181);
 }
 .drop-menu {
     position: relative;

@@ -3,11 +3,15 @@ function deleteItem(item) {
     document.getElementById("cart-table").deleteRow(i);
 }
 
-function countItem(item){
-    var x = parseInt(document.getElementById("count1").value);
-    var fee = parseInt(document.getElementById("giaItem1").value);
-    var cost = fee*x;
-    document.getElementById("price-item1").innerHTML = cost+"" ;
+function noticeBoughtItems(){
+    alert("Bạn đã đặt hàng thành công!")
 }
+
+// function countItem(item){
+//     var x = parseInt(document.getElementById("count1").value);
+//     var fee = parseInt(document.getElementById("giaItem1").value);
+//     var cost = fee*x;
+//     document.getElementById("price-item1").innerHTML = cost+"" ;
+// }
 
 
