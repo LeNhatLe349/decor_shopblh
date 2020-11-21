@@ -579,7 +579,14 @@ th:last-child{
 	float: right;
 }
 
+.btn-buyItems {
+	float: right;
+	font-size: 18px;
+	background-color: #ee4d2d;
+	box-shadow: 5px 5px 2px #f36b6b;
+	border: 0px outset snow;
+}
 
-.addCart:focus {
-	outline: none !important;
+.btn-buyItems:hover {
+	background-color: rgb(243, 35, 35);
 }
