@@ -18,3 +18,12 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+// Hien anh chi tiet san pham
+
+function mythumb(imgs) {
+  var exImg = document.getElementById("expandImg");
+
+exImg.src = imgs.src;
+exImg.parentElement.style.display = "block"
+}
