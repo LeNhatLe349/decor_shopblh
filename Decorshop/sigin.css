@@ -52,6 +52,9 @@
     left: 0px;
     top: 250px;
 }
+td {
+	text-align: left;
+}
 
 .form__sigin {
     position: absolute;
