@@ -6,7 +6,10 @@
 	text-align: center;
 	box-sizing: border-box;
 }
-
+#header {
+	position: sticky;
+	top: 0;
+}
 .main__container {
 	height: auto;
 	width: 100%;
