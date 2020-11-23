@@ -6,10 +6,7 @@
 	text-align: center;
 	box-sizing: border-box;
 }
-#header {
-	position: sticky;
-	top: 0;
-}
+
 .main__container {
 	height: auto;
 	width: 100%;
@@ -26,6 +23,7 @@
 	float: left;
 	margin-left: 19%;
 }
+
 .top-left img {
 	width: 20px;
 	height: 20px;
@@ -125,29 +123,31 @@
 .top-menu-right a:hover {
 	background-color: rgb(181, 181, 181);
 }
+
 .drop-menu {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .drop-menu-content {
-    position: absolute;
+	position: absolute;
 	display: none;
 	width: 200px;
-    left: 0%;
-    top: 100%;
-    background-color:teal;
+	left: 0%;
+	top: 100%;
+	background-color: teal;
 	z-index: 1;
 	border: 1px solid white;
 	border-radius: 10px;
 }
 
-.drop-menu-content a{
-    font-size: 22px;
-    border-bottom: 1px dashed slategray;
+.drop-menu-content a {
+	font-size: 22px;
+	border-bottom: 1px dashed slategray;
 	display: block;
 	padding: 10px;
 }
+
 .drop-menu:hover .drop-menu-content {
 	display: block;
 }
@@ -202,7 +202,7 @@
 	position: fixed;
 	width: 100px;
 	height: 100px;
-	float:right;
+	float: right;
 	margin-left: 40px;
 	bottom: 200px;
 }
@@ -226,152 +226,163 @@
 /* Selling */
 
 .selling {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
 }
 
 .selling__container {
-    width: 100%;
+	width: 100%;
 	height: 100%;
 	margin-top: 10px;
 }
 
 .selling__content {
-    width: 100%;
+	width: 100%;
 	height: 60px;
 	border-bottom: 5px solid goldenrod;
 }
 
 .selling__content p {
-    line-height: 50px;
-    text-align: center;
-    align-items: center;
-    font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+	align-items: center;
+	font-size: 25px;
 	text-transform: uppercase;
 }
 
 .selling__product {
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
 }
 
 .selling__card {
-    width: 23%;
-    border: 1px solid gray;
-    font-size: 16px;
+	width: 23%;
+	border: 1px solid gray;
+	font-size: 16px;
 	font-weight: bold;
 }
 
 .selling__card__photo {
-    width: 100%;
-    height: 280px;
-    padding: 5px;
+	width: 100%;
+	height: 280px;
+	padding: 5px;
 }
 
 .selling__card__photo img {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .selling__card__content {
-    width: 100%;
-    height: 46px;
+	width: 100%;
+	height: 46px;
 }
 
 .selling__card__price {
-    width: 100%;
-    height: 30px;
-    color: red;
+	width: 100%;
+	height: 30px;
+	color: red;
 }
 
 .selling__card p {
-    align-items: center;
-    text-align: center;
-    padding: 5px;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
 }
 
 .selling__card__more {
-    width: 100%;
-    height: 36px;
-    display: flex;
-    font-size: 14px;
-    line-height: 36px;
-    text-align: center;
-    align-items: center;
+	width: 100%;
+	height: 36px;
+	display: flex;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+	align-items: center;
 }
 
 .selling__card__more a {
-    height: 36px;
-    width: 100%;
-    display: block;
-    text-decoration: none;
-    color: #fff;
+	height: 36px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	color: #fff;
 }
 
 .selling__card__more--see, .selling__card__more--cart {
-    width: 50%;
-    background-color: #04B486;
-    margin: 4px;
+	width: 50%;
+	background-color: #04B486;
+	margin: 4px;
 }
+
 /* form đăng nhập */
-.container{
+
+.container {
 	display: flex;
 	box-sizing: border-box;
-    width: 100%;
-	margin:0px auto;
+	width: 100%;
+	margin: 0px auto;
 	height: 350px;
 	background-image: url("https://www.kiotviet.vn/wp-content/uploads/2020/05/no-ro-mo-hinh-ban-do-decor-nha-cua-online-thu-nhap-khung-2.jpg");
 }
-.login-form{
-    width: 500px;
+
+.login-form {
+	width: 500px;
 	margin: auto;
 	background-color: #ffffff;
 	padding-top: 50px;
-    padding: 20px;
-    border: 4px solid #cccccc;
-    border-radius: 10px;
+	padding: 20px;
+	border: 4px solid #cccccc;
+	border-radius: 10px;
 }
-h1{
-    color: #009999;
-    font-size: 25px;
-    margin-bottom: 30px;
+
+h1 {
+	color: #009999;
+	font-size: 25px;
+	margin-bottom: 30px;
 }
-.input-box{
-    margin-bottom: 10px;
+
+.input-box {
+	margin-bottom: 10px;
 }
-.input-box input{
-    padding: 7.5px 15px;
-    width: 100%;
-    border: 2px solid #cccccc;
+
+.input-box input {
+	padding: 7.5px 15px;
+	width: 100%;
+	border: 2px solid #cccccc;
 	outline: none;
 	border-radius: 10px;
 }
-.btn-box{
+
+.btn-box {
 	display: flex;
-	margin:  auto;
+	margin: auto;
 	margin-top: 20px;
 }
+
 [class^="btn-"] {
 	padding: 2px 33px;
 }
+
 .btn-sigin a {
 	text-decoration: none;
 	color: white;
 }
-.btn-box button{
+
+.btn-box button {
 	width: 120px;
-    padding: 7.5px 15px;
-    border-radius: 10px;
-    background-color: #009999;
-    color: #ffffff;
-    border: none;
-    outline: none;
+	padding: 7.5px 15px;
+	border-radius: 10px;
+	background-color: #009999;
+	color: #ffffff;
+	border: none;
+	outline: none;
 }
 
 /* footer */
+
 .footer {
 	background-color: #ccc;
 	border-top: 5px solid goldenrod;
@@ -440,7 +451,6 @@ h1{
 	display: block;
 	width: 20%;
 	float: left;
-	
 }
 
 .footer__content--policy p {
@@ -475,7 +485,7 @@ h1{
 	border: none;
 	border-radius: 50%;
 	box-shadow: 0 0 10px rgb(230, 221, 221);
-	outline: none	;
+	outline: none;
 }
 
 #btnScrollToTop:active {
@@ -507,7 +517,7 @@ h1{
 	font-size: 20px;
 	padding-right: 10px;
 	padding-top: 20px;
-	margin-left: 10px;	
+	margin-left: 10px;
 }
 
 .header-cart__input {
@@ -535,12 +545,12 @@ h1{
 
 table {
 	width: 100%;
-	border-collapse: collapse;	
+	border-collapse: collapse;
 	background-color: #fff;
 }
 
 .cart-infor {
-	display:flex;
+	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -583,7 +593,7 @@ td:last-child {
 	float: right;
 }
 
-th:last-child{
+th:last-child {
 	float: right;
 }
 
