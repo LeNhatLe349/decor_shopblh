@@ -155,10 +155,12 @@ td {
 
 .top-right-login:hover {
 	background-color: #ee4d2d;
+	padding: 10px;
 }
 
 .top-right-signin:hover {
 	background-color: #ee4d2d;
+	padding: 10px;
 }
 
 .search {

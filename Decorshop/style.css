@@ -67,10 +67,12 @@
 
 .top-right-login:hover {
 	background-color: #ee4d2d;
+	padding: 10px;
 }
 
 .top-right-signin:hover {
 	background-color: #ee4d2d;
+	padding: 10px;
 }
 
 .search {
@@ -152,12 +154,8 @@
 	display: block;
 }
 
-.run {
-	background-color: #CC99CC;
-}
-
 .run h2 {
-	line-height: 30px;
+	line-height: 50px;
 	font-size: 20px;
 	align-items: center;
 	font-weight: bold;
