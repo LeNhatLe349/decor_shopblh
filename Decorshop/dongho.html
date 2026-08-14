@@ -58,7 +58,7 @@
 					</li>
 					<li><a href="#">Tin tức</a></li>
                     <li><a href="#footer">Liên Hệ</a></li>
-                    <li><a href="./cart.html"><i class="fas fa-shopping-cart" style="font-size:36px; color: white"></i></a></li>
+                    <li><a href="./cart.html" style="position:relative;"><i class="fas fa-shopping-cart" style="font-size:36px; color: white"></i><span class="cart-badge" style="display:none;position:absolute;top:-5px;right:-10px;background:#ee4d2d;color:white;border-radius:50%;width:20px;height:20px;font-size:12px;line-height:20px;text-align:center;">0</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -95,6 +95,7 @@
             </div>
 		</div>
 		<script src="./main.js"></script>
+		<script src="./cart.js"></script>
 
 		<!-- Selling -->
         <div class="selling">
@@ -104,10 +105,59 @@
                 </div>
 
                 <div class="selling__product">
-                    <div class="selling__card">
+<div class="selling__card" data-id="DH-0327" data-name="Dong ho treo tuong DH-0327" data-price="200000" data-img="img/dong-ho/DH-treo tuong-0347.jpg">
                         <div class="selling__card__photo">
-                            <img src="img/dong-ho/DH-treo tường-0347.jpg" alt="Đồng hồ treo tường Tropical Flower DH-3492">
+                            <img src="img/dong-ho/DH-treo tuong-0347.jpg" alt="Dong ho treo tuong Tropical Flower DH-3492">
                         </div>
+
+                        <div class="selling__card__content">
+                            <p>Dong ho treo tuong DH-0327</p>
+                        </div>
+
+                        <div class="selling__card__price">
+                            <p>200.000 VND</p>
+                        </div>
+
+                        <div class="selling__card__more">
+                            <div class="selling__card__more--see">
+                                <a href="item/DH-0327.html">
+                                    <i class="fas fa-angle-double-right">Xem them</i>
+                                </a>
+                            </div>
+                            <div class="selling__card__more--cart">
+                                <a href="javascript:void(0)" onclick="addToCartFromCard(this)">
+                                    <i class="fas fa-plus">Gio hang</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="selling__card" data-id="DH-2311" data-name="Dong ho den led de ban DH-2311" data-price="600000" data-img="img/dong-ho/DH-de ban-2311.jpg">
+                        <div class="selling__card__photo">
+                            <img src="img/dong-ho/DH-de ban-2311.jpg" alt="Dong ho kem hop but DH-2311">
+                        </div>
+
+                        <div class="selling__card__content">
+                            <p>Dong ho den led de ban DH-2311</p>
+                        </div>
+                        
+                        <div class="selling__card__price">
+                            <p>600.000 VND</p>
+                        </div>
+
+                        <div class="selling__card__more">
+                            <div class="selling__card__more--see">
+                                <a href="item/DH-2311.html">
+                                    <i class="fas fa-angle-double-right">Xem them</i>
+                                </a>
+                            </div>
+                            <div class="selling__card__more--cart">
+                                <a href="javascript:void(0)" onclick="addToCartFromCard(this)">
+                                    <i class="fas fa-plus">Gio hang</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
     
                         <div class="selling__card__content">
                             <p>Đồng hồ treo tường DH-0327</p>

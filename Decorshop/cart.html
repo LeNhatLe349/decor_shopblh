@@ -24,22 +24,36 @@
 
     <!-- cart items details -->
     <div class="small-container cart-page">
-        <table id="cart-table">
+<table id="cart-table">
             <tr style="background-color: #eee;">
-                <th style="text-align: left;">Sản phẩm</th>
-                <th>Giá</th>
-                <th>Số lượng</th>
-                <th>Thao tác</th>
-                <th>Số tiền</th>
+                <th style="text-align: left;">San pham</th>
+                <th>Gia</th>
+                <th>So luong</th>
+                <th>Thao tac</th>
+                <th>So tien</th>
             </tr>
-            <hr>
-            <tr>
-                <td>
-                    <div class="cart-infor">
-                        <img src="./img/trang-tri-tuong/TT-Tranh-1245-1.jpg" alt="Tranh" width="100px" height="100px">
-                        <div style="padding-top: 25px; padding-left: 10px">
-                            <p>Bộ 3 tranh treo tường xương rồng TT-1245</p>
-                        </div>
+            <tbody id="cart-body">
+            </tbody>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td id="cart-subtotal">0</td>
+                </tr>
+
+                <tr>
+                    <td>Tax</td>
+                    <td id="cart-tax">0</td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td id="cart-total">0</td>
+                </tr>
+            </table>
+        </div>
                     </div>
                 </td>
                 <td id="giaItem1">240.000</td>

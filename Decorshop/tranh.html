@@ -58,7 +58,7 @@
 					</li>
 					<li><a href="#">Tin tức</a></li>
                     <li><a href="#footer">Liên Hệ</a></li>
-                    <li><a href="./cart.html"><i class="fas fa-shopping-cart" style="font-size:36px; color: white"></i></a></li>
+                    <li><a href="./cart.html" style="position:relative;"><i class="fas fa-shopping-cart" style="font-size:36px; color: white"></i><span class="cart-badge" style="display:none;position:absolute;top:-5px;right:-10px;background:#ee4d2d;color:white;border-radius:50%;width:20px;height:20px;font-size:12px;line-height:20px;text-align:center;">0</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -95,6 +95,7 @@
             </div>
 		</div>
 		<script src="./main.js"></script>
+		<script src="./cart.js"></script>
 
 		<!-- Selling -->
         <div class="selling">
@@ -104,55 +105,55 @@
                 </div>
 
                 <div class="selling__product">
-                    <div class="selling__card">
+<div class="selling__card" data-id="TT-1245" data-name="Bo 3 tranh treo tuong xuong rong TT-1245" data-price="240000" data-img="img/trang-tri-tuong/TT-Tranh-1245-1.jpg">
                         <div class="selling__card__photo">
-                            <img src="img/trang-tri-tuong/TT-Tranh-1245-1.jpg" alt="Bộ 3 tranh treo tường xương rồng TT-1245">
+                            <img src="img/trang-tri-tuong/TT-Tranh-1245-1.jpg" alt="Bo 3 tranh treo tuong xuong rong TT-1245">
                         </div>
-    
+
                         <div class="selling__card__content">
-                            <p>Bộ 3 tranh treo tường xương rồng TT-1245</p>
+                            <p>Bo 3 tranh treo tuong xuong rong TT-1245</p>
                         </div>
                         
                         <div class="selling__card__price">
-                            <p>240.000 VNĐ</p>
+                            <p>240.000 VND</p>
                         </div>
 
                         <div class="selling__card__more">
                             <div class="selling__card__more--see">
                                 <a href="item/TT-1245.html">
-                                    <i class="fas fa-angle-double-right">Xem thêm</i>
+                                    <i class="fas fa-angle-double-right">Xem them</i>
                                 </a>
                             </div>
                             <div class="selling__card__more--cart">
-                                <a href="">
-                                    <i class="fas fa-plus">Giỏ hàng</i>
+                                <a href="javascript:void(0)" onclick="addToCartFromCard(this)">
+                                    <i class="fas fa-plus">Gio hang</i>
                                 </a>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="selling__card">
+
+                    <div class="selling__card" data-id="TT-9415" data-name="Ke trang tri treo tuong TT-9415" data-price="200000" data-img="img/trang-tri-tuong/TT-ke-9415.jpg">
                         <div class="selling__card__photo">
-                            <img src="img/trang-tri-tuong/TT-kệ-9415.jpg" alt="Kệ trang trí treo tường">
+                            <img src="img/trang-tri-tuong/TT-ke-9415.jpg" alt="Ke trang tri treo tuong">
                         </div>
-    
+
                         <div class="selling__card__content">
-                            <p>Kệ trang trí treo tường xinh xắn TT-9415</p>
+                            <p>Ke trang tri treo tuong xinh xan TT-9415</p>
                         </div>
                         
                         <div class="selling__card__price">
-                            <p>200.000 VNĐ</p>
+                            <p>200.000 VND</p>
                         </div>
 
                         <div class="selling__card__more">
                             <div class="selling__card__more--see">
                                 <a href="item/TT-9415.html">
-                                    <i class="fas fa-angle-double-right">Xem thêm</i>
+                                    <i class="fas fa-angle-double-right">Xem them</i>
                                 </a>
                             </div>
                             <div class="selling__card__more--cart">
-                                <a href="">
-                                    <i class="fas fa-plus">Giỏ hàng</i>
+                                <a href="javascript:void(0)" onclick="addToCartFromCard(this)">
+                                    <i class="fas fa-plus">Gio hang</i>
                                 </a>
                             </div>
                         </div>
